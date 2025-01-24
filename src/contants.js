@@ -1,0 +1,2 @@
+export const PUNCH_ANIMATION_TIME = 500;
+export const DAMAGE_ANIMATION_TIME = 130;

@@ -1,16 +1,23 @@
 {
   "files": {
     "main.css": "/hebrew-hands/static/css/main.f855e6bc.css",
-    "main.js": "/hebrew-hands/static/js/main.62c7e2e3.js",
+    "main.js": "/hebrew-hands/static/js/main.45bb9d4e.js",
     "static/js/453.a6fdbb4e.chunk.js": "/hebrew-hands/static/js/453.a6fdbb4e.chunk.js",
-    "static/media/logo.svg": "/hebrew-hands/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/cardboard.png": "/hebrew-hands/static/media/cardboard.d462fef432c66eeb8a32.png",
+    "static/media/cardboard-hole3.png": "/hebrew-hands/static/media/cardboard-hole3.dac6a3316acf073f391e.png",
+    "static/media/crease3.png": "/hebrew-hands/static/media/crease3.12c1cdd829d3135a4890.png",
+    "static/media/crease2.png": "/hebrew-hands/static/media/crease2.15ed53c54f05326a73ed.png",
+    "static/media/crease1.png": "/hebrew-hands/static/media/crease1.77de014d0cb5663dba14.png",
+    "static/media/hand1.png": "/hebrew-hands/static/media/hand1.44d8ffd98cf79ee165d2.png",
+    "static/media/hand3.png": "/hebrew-hands/static/media/hand3.c9f9b907df5bac59d3d7.png",
+    "static/media/hand2.png": "/hebrew-hands/static/media/hand2.c75663039d9951b9cfb5.png",
     "index.html": "/hebrew-hands/index.html",
     "main.f855e6bc.css.map": "/hebrew-hands/static/css/main.f855e6bc.css.map",
-    "main.62c7e2e3.js.map": "/hebrew-hands/static/js/main.62c7e2e3.js.map",
+    "main.45bb9d4e.js.map": "/hebrew-hands/static/js/main.45bb9d4e.js.map",
     "453.a6fdbb4e.chunk.js.map": "/hebrew-hands/static/js/453.a6fdbb4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.62c7e2e3.js"
+    "static/js/main.45bb9d4e.js"
   ]
 }

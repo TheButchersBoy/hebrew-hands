@@ -22,9 +22,9 @@ const Damage = ({ x, y, size }) => {
   };
 
   useEffect(() => {
-    if ( size < 4) {
+    if ( size < 4 ) {
       cardboardHit.play();
-    } else {
+    } else if (size === 4) {
       cardboardBreakThrough.play();
     }
   }, [size]);

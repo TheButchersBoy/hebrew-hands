@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hebrew-hands/static/css/main.f855e6bc.css",
-    "main.js": "/hebrew-hands/static/js/main.f57214ee.js",
+    "main.js": "/hebrew-hands/static/js/main.f9fc80d4.js",
     "static/js/453.a6fdbb4e.chunk.js": "/hebrew-hands/static/js/453.a6fdbb4e.chunk.js",
     "static/media/cardboard.png": "/hebrew-hands/static/media/cardboard.d462fef432c66eeb8a32.png",
     "static/media/charge-up-grunt-1.mp3": "/hebrew-hands/static/media/charge-up-grunt-1.682d37b543d2a5d6565b.mp3",
@@ -23,11 +23,11 @@
     "static/media/small-grunt-2.mp3": "/hebrew-hands/static/media/small-grunt-2.4254b4647b043cf7c786.mp3",
     "index.html": "/hebrew-hands/index.html",
     "main.f855e6bc.css.map": "/hebrew-hands/static/css/main.f855e6bc.css.map",
-    "main.f57214ee.js.map": "/hebrew-hands/static/js/main.f57214ee.js.map",
+    "main.f9fc80d4.js.map": "/hebrew-hands/static/js/main.f9fc80d4.js.map",
     "453.a6fdbb4e.chunk.js.map": "/hebrew-hands/static/js/453.a6fdbb4e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.f57214ee.js"
+    "static/js/main.f9fc80d4.js"
   ]
 }

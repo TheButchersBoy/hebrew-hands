@@ -24,7 +24,6 @@ const CursorFollower = ({isPunching, isWindingUp, windingPosition} ) => {
   };
 
   const performPunch = () => {
-    console.log('punch');
     if (!punchAnimating) {
       setPunchAnimating(true);
       setShowHand1(false);

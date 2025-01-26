@@ -1,11 +1,14 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import crease1 from "../Assets/walls/effects/crease1.png"
 import crease2 from "../Assets/walls/effects/crease2.png"
 import crease3 from "../Assets/walls/effects/crease3.png"
 import hole from "../Assets/walls/effects/cardboard-hole3.png"
-
+import cardboardHitMP3 from '../Assets/audio/cardboard-hit.mp3';
+import cardboardBreakThroughMP3 from '../Assets/audio/cardboard-break-through.mp3';
 
 const Damage = ({ x, y, size }) => {
+  const cardboardHit = new Audio(cardboardHitMP3);
+  const cardboardBreakThrough = new Audio(cardboardBreakThroughMP3);
 
   const getImage = () => {
     switch (true) {
@@ -16,7 +19,15 @@ const Damage = ({ x, y, size }) => {
       case (size > 2):
       default: return crease3;
     }
-  }
+  };
+
+  useEffect(() => {
+    if ( size < 4) {
+      cardboardHit.play();
+    } else {
+      cardboardBreakThrough.play();
+    }
+  }, [size]);
 
   return (
     <div
